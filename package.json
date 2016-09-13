@@ -1,19 +1,19 @@
 {
   "name": "payment",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A general purpose library for building credit card forms, validating inputs and formatting numbers. Base on jquery.payment by @stripe, but without the jQuery.",
   "keywords": [
     "payment",
     "cc",
     "card"
   ],
-  "author": "Jesse Pollak",
+  "author": "Bartlomiej Wereszczynski",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jessepollak/payment.git"
+    "url": "https://github.com/bartlomiejwereszczynski/payment.git"
   },
-  "main": "lib/index.js",
+  "main": "dist/payment.js",
   "scripts": {
     "compile": "coffee -o lib/ --compile ./src/*.coffee",
     "build": "NODE_ENV=production webpack",
